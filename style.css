@@ -8,6 +8,7 @@
     font-family: Share Tech Mono;
 }
 
+/* general */
 body{
     background-color: #e7f3e0;
     min-height: 100vh;
@@ -18,9 +19,13 @@ body{
 header, main, footer{
     padding: 1rem;
     background-color: #c9e2bb;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
+
+/* header */
+
+/* main */
 
 /* footer */
 footer .credits{
