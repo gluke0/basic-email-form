@@ -1,6 +1,10 @@
 /* import font */
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
+:root{
+    --text-primary: #000000
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -25,7 +29,13 @@ header, main, footer{
 
 /* header */
 
+
+
 /* main */
+
+
+
+
 
 /* footer */
 footer .credits{
