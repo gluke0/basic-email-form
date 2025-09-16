@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 :root{
-    --text-primary: #000000
+    --text-primary: #000000;
+    --text-secondary: #21251f;
 }
 
 *{
@@ -27,9 +28,21 @@ header, main, footer{
     margin: auto;
 }
 
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
 /* header */
 
 /* main */
+.subtitle{
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
 
 /* footer */
 footer .credits{
