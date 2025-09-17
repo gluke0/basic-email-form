@@ -43,8 +43,17 @@ h1{
     margin-bottom: 3rem;
 }
 
+.form-container h2, .right-section h2{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
 
 /* footer */
 footer .credits{
     text-align: center;
+}
+
+/* message status*/
+#success-message{
+    display: none;
 }
