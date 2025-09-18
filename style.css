@@ -4,6 +4,8 @@
 :root{
     --text-primary: #000000;
     --text-secondary: #21251f;
+    --main-bg: #e7f3e0;
+    --dark-bg: #cbe3bd;
 }
 
 *{
@@ -15,7 +17,7 @@
 
 /* general */
 body{
-    background-color: #e7f3e0;
+    background-color: var(--main-bg);
     min-height: 100vh;
     width: 100%;
     padding: 1rem;
@@ -53,7 +55,7 @@ footer .credits{
     text-align: center;
 }
 
-/* message status*/
+/* message status */
 #success-message{
     display: none;
 }
