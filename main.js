@@ -7,3 +7,9 @@
 // getting the DOM elements
 let contactForm = document.getElementById('contactForm');
 let successMessage = document.getElementById('success-message');
+
+contactForm.addEventListener('submit', function (event){
+
+
+
+});
