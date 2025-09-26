@@ -55,6 +55,7 @@ h1{
 /* footer */
 footer .credits{
     text-align: center;
+    font-style: italic;
 }
 
 /* message status */
