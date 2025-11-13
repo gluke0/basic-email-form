@@ -51,7 +51,7 @@ h1{
     margin-bottom: 2rem;
 }
 
-input{
+input, textarea{
     margin-bottom: 0.8rem;
 }
 
