@@ -19,9 +19,4 @@ let formContent = {
     message: document.getElementById('message').value,
     reply_to: document.getElementById('email').value,
 };
-
-
-
-
-
 });
