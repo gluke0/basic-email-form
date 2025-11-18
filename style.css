@@ -54,6 +54,8 @@ h1{
 
 input, textarea{
     margin-bottom: 0.8rem;
+    border: none;
+    padding: 0.5px 2px;
 }
 
 textarea{
