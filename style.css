@@ -125,6 +125,13 @@ footer .credits{
 
 @media screen and (max-width: 768px){
     
+    textarea{
+        width: 35%;
+    }
+
+    .down-section{
+        padding: 2rem;
+    }
 
 }
 
