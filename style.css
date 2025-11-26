@@ -98,6 +98,12 @@ button:hover{
     display: none;
 }
 
+hr{
+    height: 1px;
+    border: none;
+    background-color: #e7f3e0;
+}
+
 /* footer */
 footer .credits{
     text-align: center;
