@@ -21,3 +21,17 @@ let formContent = {
 };
 
 });
+
+// faq toggle
+let question = document.getElementsByClassName('question-card');
+let answer = document.getElementsByClassName('ans');
+
+for (let i = 0; i < question.length; i++){
+  question[i].addEventListener('click', function(){
+    if (answer[i].classList.contains('hidden')){
+      answer[i].classList.remove('hidden');
+    }else{
+      answer[i].classList.add('hidden');
+    }
+  });
+}
