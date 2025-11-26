@@ -86,6 +86,10 @@ button:hover{
     margin-top: 0.6rem;
 }
 
+.hidden{
+    display: none;
+}
+
 /* footer */
 footer .credits{
     text-align: center;
