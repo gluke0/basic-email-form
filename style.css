@@ -119,9 +119,11 @@ footer .credits{
 /* media query */
 @media screen and (max-width: 1024px){
     
+    textarea{
+        width: 30%;
+    }
 
 }
-
 
 @media screen and (max-width: 768px){
     
@@ -135,7 +137,6 @@ footer .credits{
 
 }
 
-
 @media screen and (max-width: 605px){
 
     textarea{
@@ -147,7 +148,6 @@ footer .credits{
     }
 
 }
-
 
 @media screen and (max-width: 480px){
     
