@@ -1,7 +1,7 @@
 // emailjs integration
 (function (){
     // need to put my public key
-    emailjs.init("EMAILJS_PUBLIC_KEY");
+    emailjs.init("");
 })();
 
 // getting the DOM elements
@@ -20,6 +20,17 @@ let formContent = {
     reply_to: document.getElementById('email').value,
 };
 
+// send the proper email
+    // first service id and then template id
+    emailjs.send('', '', formContent).then(function (response){
+        successMessage.classList.remove('hidden');
+        contactForm.reset();
+        setTimeout(() => {
+            successMessage.classList.add('hidden');
+        }, 7000);
+    }).catch(function (error) {
+        alert('Failed to send message. Please try again.');
+    });
 });
 
 // faq toggle
