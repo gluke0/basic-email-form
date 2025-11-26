@@ -86,6 +86,14 @@ button:hover{
     margin-top: 0.6rem;
 }
 
+.question-card{
+    margin-bottom: 0.8rem;
+}
+
+.question-card{
+    cursor: pointer;
+}
+
 .hidden{
     display: none;
 }
