@@ -20,7 +20,7 @@ let formContent = {
     reply_to: document.getElementById('email').value,
 };
 
-// send the proper email
+// send the email and confirmation
     // first service id and then template id
     emailjs.send('service_fcpvo6e', 'template_kkm533k', formContent).then(function (response){
       alert('Message sent successfully!');
