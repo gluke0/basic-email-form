@@ -72,15 +72,22 @@ button:hover{
     transform: scale(1.02);
 }
 
-#success-message{
+#success-message, #unsuccess-message{
     margin: 2rem auto;
-    color: #5e6b57;
     font-weight: 600;
     font-size: x-large;
     font-style: italic;
     background-color: #e7f3e0;
     padding: 1rem 2rem;
     width: 70%;
+}
+
+#success-message{
+    color: #5e6b57;
+}
+
+#unsuccess-message{
+    color: #8d3636;
 }
 
 .hidden{
