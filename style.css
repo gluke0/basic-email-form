@@ -72,6 +72,18 @@ button:hover{
     transform: scale(1.02);
 }
 
+#success-message{
+    margin-top: 2rem;
+    color: #5e6b57;
+    font-weight: 600;
+    font-size: x-large;
+    font-style: italic;
+}
+
+/* .hidden{
+    display: none;
+} */
+
 .down-section{
     padding: 1rem 3.5rem;
 }
@@ -94,10 +106,6 @@ button:hover{
     cursor: pointer;
 }
 
-.hidden{
-    display: none;
-}
-
 hr{
     height: 1px;
     border: none;
@@ -109,11 +117,6 @@ footer .credits{
     text-align: center;
     font-style: italic;
     font-size: x-small;
-}
-
-/* message status */
-#success-message{
-    display: none;
 }
 
 /* media query */
