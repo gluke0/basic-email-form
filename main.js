@@ -23,13 +23,13 @@ let formContent = {
 // send the email and confirmation
     // first service id and then template id
     emailjs.send('service_fcpvo6e', 'template_kkm533k', formContent).then(function (response){
-      alert('Message sent successfully!');
+      // alert('Message sent successfully!');
 
         successMessage.classList.remove('hidden');
         contactForm.reset();
         setTimeout(() => {
             successMessage.classList.add('hidden');
-        }, 7000);
+        }, 5000);
 
     }).catch(function (error) {
         alert('Failed to send message. Please try again.');
