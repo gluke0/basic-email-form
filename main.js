@@ -1,7 +1,7 @@
 // emailjs integration
 (function (){
     // need to put my public key
-    emailjs.init("");
+    emailjs.init("cos4HUrZtOJDYD_J0");
 })();
 
 // getting the DOM elements
@@ -22,12 +22,13 @@ let formContent = {
 
 // send the proper email
     // first service id and then template id
-    emailjs.send('', '', formContent).then(function (response){
-        successMessage.classList.remove('hidden');
-        contactForm.reset();
-        setTimeout(() => {
-            successMessage.classList.add('hidden');
-        }, 7000);
+    emailjs.send('service_fcpvo6e', 'template_kkm533k', formContent).then(function (response){
+      alert('Message sent successfully!');
+        // successMessage.classList.remove('hidden');
+        // contactForm.reset();
+        // setTimeout(() => {
+        //     successMessage.classList.add('hidden');
+        // }, 7000);
     }).catch(function (error) {
         alert('Failed to send message. Please try again.');
     });
